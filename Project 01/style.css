@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    padding: 13px;
+    margin: 40px;
+    margin-top: 16px;
+    margin-left: 50px;
+    margin-right: 69px;
+}
+
+.navbar-container div {
+    display: inline-block;
+}
+
+.navbar-container div img {
+    display: inline-block;
+    width: 85px;
+    height: auto;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    /* padding: 8px 12px; */
+    position: relative;
+    bottom: 18px;
+    padding: 18px;
+    font-family: 'Orbitron';
+    font-weight: bold;
+
+}
+
+.navbar-container ul li {
+    list-style: none;
+    display: inline-block;
+    /* padding: 8px 12px; */
+    position: relative;
+    bottom: 9px;
+    padding: 18px;
+    font-family: 'Poppins';
+    font-size: 14PX;
+    left: 44px;
+    color: rgb(199, 193, 193);
+
+}
+
+ul li.list-item1 {
+    color: black;
+}
+
+.navbar-container ul li::hover {
+    font-size: 22px;
+    color: black;
+}
+
+.button-group .nav-button {
+    top: 46px;
+    right: 51px;
+    position: absolute;
+    color: #fff;
+    border: 2px solid;
+    border-width: 2px;
+    padding: 11px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    background-color: rgb(105, 40, 158);
+}
+
+.banner-container div img {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 138px;
+}
+
+.nav-button.btn {
+    display: inline-block;
+    position: relative;
+    bottom: -492px;
+    color: #fff;
+    left: autopx;;
+    border: 2px solid;
+    border-width: 2px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    background-color: rgb(117, 102, 201);
+    padding: 18px 40px;
+}
+
+.description {
+    display: inline;
+    position: absolute;
+    bottom: 80px;
+    padding: 18px;
+    font-family: 'Poppins';
+    font-size: 17px;
+    text-align: left;
+    color: rgb(184, 174, 174);
+    width: 420px;
+    white-space: normal;
+    left: auto;
+}
+
+.heading-text{
+    display: inline-block;
+    font-family: 'Poppins';
+    position: absolute;
+    font-size: 50px;
+    width: 342px;
+    top: 200px;
+}
+span{
+    color: rgb(117, 102, 201);
+}

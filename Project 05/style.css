@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2B2922;
+    width: auto;
+    height: auto;
+}
+
+.hero-img{
+    position: absolute;
+    height: 48vh;
+    width: 100%;
+    object-fit: cover;
+    top: 259px;
+    bottom: 50px;
+}
+
+
+.navbar div img{
+    display: inline-block;
+    position: absolute;
+    height: auto;
+    width: 88px;
+    left: 70px;
+    top: 28px;
+  }
+
+  ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    margin-top: -10px;
+    padding: 18px;
+   left: 603px;
+    top: 28px;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(131, 108, 108);
+    font-family: 'Montserrat';
+  }
+
+  .button-small{
+    position: absolute;
+    top: 26px;
+    right: 100px;
+    float: right;
+    width: 129px;
+    height: 36px;
+    background-color: transparent;
+    color: #A08F36;
+    font-size: 15px;
+    border: 1px solid #A08F36;
+    border-radius: 10px;
+  }
+
+  .hero-heading{
+    display: inline;
+    position: absolute;
+    top: 164px;
+    left: 289px;
+    width: 424px;
+    transform: translate(-53%,-51%);
+    color: white;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 44px;
+    font-family: 'Montserrat';
+  }
+
+  .hero-body{
+    display: inline;
+    position: absolute;
+    top: 129px;
+    left: 59%;
+    width: 372px;
+    color: rgb(170, 162, 162);
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+  }
+
+  ul li.list-item1 {
+    color: white;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+    width: 195px;
+    height: 87px;
+  }
+  
+  .button-large-prev{
+    float: left;
+    height: auto;
+    width: 97px;
+    color: #ffffff;
+    font-size: 50px;
+    padding-left: 45px;
+    padding-top: 30px;
+    background-color: #39372D;
+
+  }
+  .button-large-next{
+    float: right;
+    height: auto;
+    width: 97px;
+    color: #ffffff;
+    font-size: 50px;
+    padding-left: 45px;
+    padding-top: 30px;
+    background-color: #A08F36;
+  }
+
+
